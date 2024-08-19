@@ -1,0 +1,118 @@
+body {
+ 
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+  padding: 0;
+  
+  
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+  @media screen and (max-width: 600px) {
+    margin-bottom: 10px;
+  }
+}
+
+.heading button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #008080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.heading button:hover {
+  background-color: rgb(0, 128, 128);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #aaa3a3;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.75); /* Darker shadow on hover */
+}
+.card img {
+  width: 100%;
+  height: 80%;
+  
+}
+
+.card h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+
+.emergency-details {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color : black;
+  height: auto;
+}
+
+.emergency-details button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #008080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.emergency-details button:hover {
+  background-color: #008080;
+}
+
+.emergency-details h2 {
+  margin-top: 0;
+}
+
+.emergency-details p {
+  margin: 10px 10px;
+  line-height: 1.6;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 5px;
+}
+
